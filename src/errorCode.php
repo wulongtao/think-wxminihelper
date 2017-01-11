@@ -1,6 +1,6 @@
 <?php
 
-namespace think\wxmini;
+namespace wlt\wxmini;
 /**
  * error code 说明.
  * <ul>

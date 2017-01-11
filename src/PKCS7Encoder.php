@@ -1,5 +1,5 @@
 <?php
-namespace think\wxmini;
+namespace wlt\wxmini;
 
 /**
  * PKCS7Encoder class
