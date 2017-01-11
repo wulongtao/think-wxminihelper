@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\wxmini\\": "./"
+            "think\\wxmini\\": "src"
         }
     }
 }
