@@ -2,6 +2,7 @@
     "name": "xxh/think-wxminihelper",
     "description": "weixin mini program helper",
     "license": "MIT",
+    "type"  : "project",
     "authors": [
         {
             "name": "小小黑",
