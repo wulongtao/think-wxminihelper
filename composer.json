@@ -11,7 +11,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/5ini99/think-auth/issues"
+        "issues": "https://github.com/wulongtao/think-wxminihelper/issues"
     },
     "require": {
         "php": ">=5.3.0"
