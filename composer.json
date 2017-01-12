@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wlt\\wxmini\\": "src"
+            "wlt\\wxmini\\": "src/"
         }
     }
 }
