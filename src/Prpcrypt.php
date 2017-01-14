@@ -10,7 +10,7 @@ class Prpcrypt
 {
     public $key;
 
-    function Prpcrypt( $k )
+    function __construct( $k )
     {
         $this->key = $k;
     }

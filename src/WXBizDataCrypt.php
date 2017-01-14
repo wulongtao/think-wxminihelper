@@ -19,7 +19,7 @@ class WXBizDataCrypt
      * @param $sessionKey string 用户在小程序登录后获取的会话密钥
      * @param $appid string 小程序的appid
      */
-    public function WXBizDataCrypt( $appid, $sessionKey)
+    public function __construct( $appid, $sessionKey)
     {
         $this->sessionKey = $sessionKey;
         $this->appid = $appid;
