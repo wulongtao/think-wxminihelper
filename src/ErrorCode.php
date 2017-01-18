@@ -15,7 +15,6 @@ namespace wlt\wxmini;
 
 class ErrorCode
 {
-    
     public static $OK = 0;
     public static $IllegalAesKey = -41001;
     public static $IllegalIv = -41002;
