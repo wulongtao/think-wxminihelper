@@ -1,5 +1,5 @@
 # think-wxminihelper
-基于ThinkPHP5.0的微信小程序composer包。
+基于ThinkPHP5.0的微信小程序composer包。 
 
 你只需要两部就可以实现微信的登录验证，验证成功后会自动返回一个3rd_session，和用户的基本信息
 

@@ -12,6 +12,7 @@ class Prpcrypt
 
     function __construct( $k )
     {
+
         $this->key = $k;
     }
 

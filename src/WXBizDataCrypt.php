@@ -21,6 +21,7 @@ class WXBizDataCrypt
      */
     public function __construct( $appid, $sessionKey)
     {
+
         $this->sessionKey = $sessionKey;
         $this->appid = $appid;
     }

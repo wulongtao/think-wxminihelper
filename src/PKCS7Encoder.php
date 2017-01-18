@@ -17,6 +17,7 @@ class PKCS7Encoder
      */
     function encode( $text )
     {
+
         $block_size = PKCS7Encoder::$block_size;
         $text_length = strlen( $text );
         //计算需要填充的位数

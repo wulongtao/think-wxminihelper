@@ -39,6 +39,7 @@ class WXLoginHelper {
          * 为了自身应用安全，session_key 不应该在网络上传输。
          * 接口地址："https://api.weixin.qq.com/sns/jscode2session?appid=APPID&secret=SECRET&js_code=JSCODE&grant_type=authorization_code"
          */
+
         $params = [
             'appid' => $this->config['appid'],
             'secret' => $this->config['secret'],
