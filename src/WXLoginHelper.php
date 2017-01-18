@@ -20,6 +20,7 @@ class WXLoginHelper {
         'grant_type' => 'authorization_code', // grant_type，一般情况下固定的
     ];
 
+
     /**
      * 构造函数
      * WXLoginHelper constructor.

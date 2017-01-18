@@ -10,6 +10,7 @@ class Prpcrypt
 {
     public $key;
 
+
     function __construct( $k )
     {
 
