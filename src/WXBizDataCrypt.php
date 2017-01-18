@@ -14,7 +14,6 @@ class WXBizDataCrypt
     private $appid;
     private $sessionKey;
 
-
     /**
      * 构造函数
      * @param $sessionKey string 用户在小程序登录后获取的会话密钥

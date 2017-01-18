@@ -23,4 +23,5 @@ class ErrorCode
     public static $RequestTokenFailed = -41005;
     public static $SignNotMatch = -41006;
     public static $EncryptDataNotMatch = -41007;
+
 }
