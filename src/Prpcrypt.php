@@ -28,14 +28,12 @@ class Prpcrypt
 
         try {
 
-            $module = mcrypt_module_open(MCRYPT_RIJNDAEL_128, '', MCRYPT_MODE_CBC, '');
-
-            mcrypt_generic_init($module, $this->key, $aesIV);
-
-            //解密
-            $decrypted = mdecrypt_generic($module, $aesCipher);
-            mcrypt_generic_deinit($module);
-            mcrypt_module_close($module);
+        /**
+         * Mcrypt has been DEPRECATED as of PHP 7.1.0.
+         * Replace with OpenSSL.（Support  PHP >= 5.3.0）
+         * @see http://php.net/manual/zh/function.openssl-decrypt.php
+         */
+             $decrypted = openssl_decrypt($aesCipher, 'AES-128-CBC', $this->key, OPENSSL_RAW_DATA, $aesIV);
         } catch (\Exception $e) {
             return array(ErrorCode::$IllegalBuffer, null);
         }
